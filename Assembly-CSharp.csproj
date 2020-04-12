@@ -62,13 +62,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CollisionHandler.cs" />
-    <Compile Include="Assets\FYPCore.cs" />
-    <Compile Include="Assets\MeshGenerator.cs" />
-    <Compile Include="Assets\ObjectSpawner.cs" />
-    <Compile Include="Assets\OculusionRenderer.cs" />
-    <Compile Include="Assets\PhysicalCameraIntectorAPI.cs" />
-    <Compile Include="Assets\PointCloudGenerator.cs" />
+    <Compile Include="Assets\Scripts\CollisionHandler.cs" />
+    <Compile Include="Assets\Scripts\FYPCore.cs" />
+    <Compile Include="Assets\Scripts\MeshGenerator.cs" />
+    <Compile Include="Assets\Scripts\MeshGenerator1.cs" />
+    <Compile Include="Assets\Scripts\ObjectSpawner.cs" />
+    <Compile Include="Assets\Scripts\ObjectSpawner1.cs" />
+    <Compile Include="Assets\Scripts\OculusionRenderer.cs" />
+    <Compile Include="Assets\Scripts\OculusionRenderer1.cs" />
+    <Compile Include="Assets\Scripts\PhysicalCameraIntectorAPI.cs" />
+    <Compile Include="Assets\Scripts\PhysicalCameraIntectorAPI1.cs" />
+    <Compile Include="Assets\Scripts\PointCloudGenerator.cs" />
+    <Compile Include="Assets\Scripts\PointCloudGenerator1.cs" />
+    <Compile Include="Assets\Scripts\ZEDMiniInteractor.cs" />
+    <Compile Include="Assets\Scripts\ZEDMiniInteractor1.cs" />
     <Compile Include="Assets\ZED\Examples\Dark Room\Scripts\DisableUntilZEDReady.cs" />
     <Compile Include="Assets\ZED\Examples\Dark Room\Scripts\LightShow.cs" />
     <Compile Include="Assets\ZED\Examples\Dark Room\Scripts\PitchOscillator.cs" />
@@ -183,9 +190,8 @@
     <Compile Include="Assets\ZED\SDK\NativeInterface\ZEDCameraSettings.cs" />
     <Compile Include="Assets\ZED\SDK\NativeInterface\ZEDCommon.cs" />
     <Compile Include="Assets\ZED\SDK\NativeInterface\ZEDMat.cs" />
-    <Compile Include="Assets\ZEDMiniInteractor.cs" />
     <None Include="Assets\ZED\Examples\Mixed Reality Calibration\Shaders\ColorTexTransparent.shader" />
-    <None Include="Assets\DepthTo3DPointShader.shader" />
+    <None Include="Assets\Shaders\DepthTo3DPointShader.shader" />
     <None Include="Assets\ZED\Examples\GreenScreen\Readme.txt" />
     <None Include="Assets\ZED\SDK\Helpers\Shaders\SpatialMapping\GeometryWireframe.shader" />
     <None Include="Assets\ZED\Examples\Plane Detection\Textures\Readme.txt" />
@@ -204,7 +210,7 @@
     <None Include="Assets\ZED\Examples\GreenScreen\Shaders\GreenScreen.shader" />
     <None Include="Assets\ZED\SDK\Helpers\Shaders\Lighting\ZED_Forward_Lighting.shader" />
     <None Include="Assets\ZED\Examples\Drone Shooter\Resources\Shaders\AlphaBlendTransition.shader" />
-    <None Include="Assets\OculusionShader.shader" />
+    <None Include="Assets\Shaders\OculusionShader.shader" />
     <None Include="Assets\ZED\SDK\Helpers\Shaders\Lighting\ZED_Deferred.shader" />
     <None Include="Assets\ZED\Examples\Drone Shooter\Resources\explosion\Particle_Softrim_Dissolve_alpha.shader" />
     <None Include="Assets\ZED\Examples\SpatialMapping\README.txt" />
